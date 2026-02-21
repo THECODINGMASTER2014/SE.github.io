@@ -1,0 +1,44 @@
+body{
+text-align: center;
+background-color: black;
+color: white;
+font-family: cursive;
+}
+.topnav a{
+    color: rgba(131, 131, 131, 0.842);
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+
+}
+
+   .topnav a:hover{
+    color: white;
+   }
+
+   .topnav{
+    overflow: hidden;
+    background-color: black;
+   }
+   .topnav a:active{
+    background-color: #ffe066;
+   }
+   .img1{
+float: right;
+   }
+.carousel-inner> .item > img{
+width: 250px;
+height: 350px;
+}   
+.carousel-inner{
+   text-align: center;
+   align-items: center;
+}
+.carousel-item{
+   display: grid;
+   grid-auto-flow: column;
+   grid-auto-columns: 30%;
+   scroll-snap-align: center;
+   gap: 1rem;
+}
